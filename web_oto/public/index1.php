@@ -1,7 +1,7 @@
 <?php
 session_start();
 if (!isset($_SESSION['username'])) {
-	 header('Location: login.php');
+  header('Location: login.php');
 }
 ?>
 <!DOCTYPE html>
@@ -24,13 +24,13 @@ if (!isset($_SESSION['username'])) {
     <a href="">Đánh giá người dùng</a>
     <a href="">Liên hệ</a>
     <div class="login">
-    <p class="user"> Chào mừng bạn <?php echo $_SESSION['username'];  ?></p>
-<?php 
- 
-// if (isset($_SESSION['username'])){
-// //     unset($_SESSION['username']);
-// }
-?>
+      <p class="user"> Chào mừng bạn <?php echo $_SESSION['username'];  ?></p>
+      <?php
+
+      // if (isset($_SESSION['username'])){
+      // //     unset($_SESSION['username']);
+      // }
+      ?>
     </div>
   </div>
   <div>
@@ -47,48 +47,42 @@ if (!isset($_SESSION['username'])) {
 
       <h3 class="h4">Mẫu xe tiêu biểu</h4>
         <div class="slideshow-container">
-
           <div class="mySlides fade">
             <div class="numbertext"></div>
-            <img src="../image/vinfast.jpg" alt="" style="width:100%">
-            <div class="text">Vinfast LUX SA2.0</div>
+            <img src="../image/vinfast.jpg" heigh="556" style="width:100%">
+            <div class="text">Vinfast LUX A2.0</div>
           </div>
 
           <div class="mySlides fade">
             <div class="numbertext"></div>
-            <img src="../image/VinFast.lux.jpg" style="width:100%">
-            <div class="text1">Vinfast LUX A2.0</div>
+            <img src="../image/VinFast.lux.jpg" heigh="556" style="width:100%">
+            <div class="text1">Vinfast LUX SA2.0</div>
           </div>
 
           <div class="mySlides fade">
             <div class="numbertext"></div>
-            <img src="../image/mercs c 300.jpg" height="556" style="width:100%">
+            <img src="../image/mercs c 300.jpg" height="560" style="width:100%">
             <div class="text">Mercedes-Benz C 300 AMG</div>
           </div>
 
           <div class="mySlides fade">
             <div class="numbertext"></div>
             <img src="../image/audi-a8.jpg" height="556" style="width:100%">
-            <div class="text">Audi A8</div>
-          </div>
-
-          <div class="mySlides fade">
-            <div class="numbertext"></div>
-            <img src="../image/vinfast.jpg" height="" style="width:100%">
             <div class="text">Vinfast LUX SA2.0</div>
           </div>
+
           <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
             <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
 
         </div>
         <br>
 
-        <div style="text-align:center">
+        <!-- <div style="text-align:center">
           <span class="dot" onclick="currentSlide(1)"></span>
           <span class="dot" onclick="currentSlide(2)"></span>
           <span class="dot" onclick="currentSlide(3)"></span>
           <span class="dot" onclick="currentSlide(4)"></span>
-        </div>
+        </div> -->
     </div>
     <div class="column side">
       zxc
@@ -97,7 +91,7 @@ if (!isset($_SESSION['username'])) {
 
     </div>
   </div>
-  <script src="../web_oto/javascript/js.js"></script>
+  <script src="../javascript/js.js"></script>
 </body>
 
 </html>

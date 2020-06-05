@@ -11,6 +11,7 @@
 <body>
   <div class="header">
     <img src="../web_oto/image/logo.png" height="200" alt="">
+  </div>
   </div class="row">
   <div class="topnav">
     <a href="">Trang chủ</a>
@@ -64,7 +65,6 @@
 
       <h3 class="h4">Mẫu xe tiêu biểu</h4>
         <div class="slideshow-container">
-
           <div class="mySlides fade">
             <div class="numbertext"></div>
             <img src="../web_oto/image/vinfast.jpg" style="width:100%">
